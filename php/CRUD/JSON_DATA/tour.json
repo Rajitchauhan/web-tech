@@ -1,0 +1,17 @@
+[
+    {
+        "destination": "Agra",
+        "number_of_ticket": 10,
+        "is_valid": true
+    },
+    {
+        "destination": "Mathura",
+        "number_of_ticket": 5,
+        "is_valid": true
+    },
+    {
+        "destination": "Agra",
+        "number_of_ticket": 10,
+        "is_valid": true
+    }
+]

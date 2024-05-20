@@ -1,0 +1,81 @@
+29/12/2023
+PHP :
+1 -> link to page (redirect) using anchor
+2 -> if Statement (if : else: endif:) ,, we can use '{}'  also.
+3 -> dynamic urls (in urls we can send the data), isset($_GET['name']) check data is sending or not.
+4 -> htmlspecialchars() is a PHP function that is commonly used to convert special characters
+ to HTML entities.
+ This is particularly important
+ when dealing with user input that will be displayed
+ on a web page to prevent cross-site scripting (XSS) attacks.
+
+5 -> Cookies in PHP are a way to store small pieces of information on the client's machine
+ that can be retrieved later. Cookies are often used to store user preferences,
+  session information, or other small amounts of data.
+
+  A cookie is a small text file that is saved on the user’s computer.
+   The maximum file size for a cookie is 4KB.
+    It is also known as an HTTP cookie, a web cookie, or an internet cookie.
+     When a user first visits a website,
+  the site sends data packets to the user’s computer in the form of a cookie.
+
+  6 -> session Session :
+A session is used to save information on the server momentarily
+so that it may be utilized across various pages of the website.
+
+30/12/2023
+
+
+7 -> set up php web site use include() , to reuse header and footer also make dynamic title
+
+8 -> Flash messages are typically used to display temporary messages to the user,
+ such as success messages or error messages,
+  and are often stored in session variables.//
+   Set a flash message (replace this with your actual logic)
+   $_SESSION['flash_message'] = "Welcome to the website!"; when user
+   <?php
+    // Display flash message if it exists
+    if (isset($_SESSION['flash_message'])) {
+        echo '<div class="flash-message">' . $_SESSION['flash_message'] . '</div>';
+        // Clear the flash message to display it only once
+        unset($_SESSION['flash_message']);
+    }
+    ?>
+
+
+03/01/2024
+
+9 -> revise and upload php code on github
+
+04/01/2024
+
+10 -> learn convert array into json data using json_encode() , and make file  using __DIR__. and save using  file_put_contents(jsonfile , jsonData);
+
+11 -> make a connections with php and  mysql
+
+ [
+  $conn->query($sql);
+
+  Purpose: Executes the SQL query on the database.
+  Example: $conn->query("SELECT * FROM table");
+  $result->num_rows
+
+  Purpose: Returns the number of rows in the result set.
+  Example: $result->num_rows > 0 checks if there are rows in the result set.
+  $result->fetch_assoc()
+
+  Purpose: Fetches a row as an associative array.
+  Example: $row = $result->fetch_assoc();
+  $conn->close();
+
+  Purpose: Closes the database connection.
+  Example: $conn->close();
+]
+
+05/01/2024
+
+12 -> learn about insert into DB and trim() , serialize  , empty() , bind_param()
+
+06/01/2024
+
+13 -> i have practiced , session  , login  , logout , hash() , debugging .

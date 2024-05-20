@@ -1,0 +1,204 @@
+1 -> why we use placeholder in php when insert data in mysql , is it save to manually insert with placeholder
+
+INTERNSHIP : 
+
+							
+
+https://techprogrammind.com/ibm-coding-questions-with-answers-2023/
+
+https://www.hackerrank.com/challenges/append-and-delete/problem
+
+https://www.geeksforgeeks.org/program-to-check-the-validity-of-a-password/
+
+https://prepinsta.com/ibm/coding/
+
+https://www.prepbytes.com/ibm-coding-questions
+
+https://ccodelearner.com/blog/ibm-coding-questions-with-answers/
+
+https://techprogrammind.com/ibm-interview-experience/#
+
+
+
+
+
+def findYValue(bits, maxSet, x):
+    possible_y = [format(i , f'0{bits}b') for i in range(2**bits) if bin(i).count("1") <= maxSet]
+    max_res = 0
+    res_y=""
+    for y in possible_y:
+        xor_res = int(x , 2)*int(y , 2) # i use 8 insdead of ^
+        if xor_res > max_res:
+            max_res = xor_res
+            res_y = y
+    return res_y
+
+
+
+
+Subject: Application for the Associate Software Development Engineer Position at Swiggy
+
+Dear Hiring Team,
+
+I am writing to express my keen interest in the Associate Software Development Engineer (aSDE) position at Swiggy, as advertised with Job ID 11553. With a background in Computer Science and strong programming skills in Java and Go, I am excited about the opportunity to contribute to Swiggy's cutting-edge backend systems.
+
+I am a recent graduate with a B.Tech degree, specializing in Computer Science, and I am eager to leverage my academic knowledge to actively participate in the design, development, and implementation of scalable backend systems. Your commitment to a tech-first approach aligns well with my enthusiasm for staying at the forefront of technology.
+
+
+I am impressed by Swiggy's innovative initiatives such as Swiggy Instamart and Swiggy Genie, and I am excited about the prospect of contributing to the company's growth and success. The emphasis on a collaborative team environment, coupled with my excellent problem-solving and communication skills, positions me as a valuable candidate for this role.
+
+Moreover, my understanding of cloud platforms such as AWS and version control systems like Git further complements the qualifications outlined in the job description. I am particularly drawn to Swiggy's commitment to continuous improvement and development, as reflected in your tech blogs.
+
+Thank you for considering my application. I am eager to bring my skills and enthusiasm to Swiggy and contribute to the ongoing success of your dynamic team. I look forward to the opportunity for an interview to discuss how my background and skills align with the goals of Swiggy.
+
+Sincerely,
+
+Rajit Kumar Chauhan
+rajit3299@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subject: Application for the Associate Software Development Engineer Position at Swiggy
+
+Dear Hiring Team,
+
+I am writing to express my interest in the Associate Software Development Engineer (aSDE) position at Swiggy, as advertised with Job ID 11553. With a solid educational background and hands-on experience in software development, I am excited about the prospect of contributing to Swiggy's dynamic engineering team.
+
+Education:
+I recently completed my BTech in Computer Science from Dr. A.P.J. Abdul Kalam Technical University, achieving a commendable CGPA of 7.84/10. My coursework has equipped me with a strong foundation in Data Structures, Algorithms, Object-Oriented Programming, and more, providing me with the necessary skills for this role.
+
+Coding Profiles:
+I actively engage in competitive programming on platforms such as Leetcode, GeeksforGeeks, and HackerRank, where I have successfully solved over 700 DSA questions. My GitHub profile showcases my commitment to continuous learning and improvement.
+
+Skills:
+My proficiency in programming languages such as Python, PHP, and JavaScript, along with expertise in HTML/CSS and Bootstrap 5, aligns well with the requirements outlined in your job description. I am also familiar with version control systems like Git and databases such as MySQL and SQLite 3.
+
+Professional Experience:
+In my current role as a Software Engineer Trainee at E-gain, I have played a pivotal role in designing and developing dynamic web pages for the arorat.com project. I have demonstrated proficiency in a tech stack that includes HTML, CSS, JavaScript, Bootstrap 5, PHP, and MySQL, contributing to an enhanced user experience.
+
+As a Web Developer Intern at Jobaaj.com, I further honed my web development skills, gaining valuable experience in writing clean, maintainable code. I have actively participated in designing and developing user-friendly web pages using HTML, CSS, and Bootstrap 5.
+
+Projects:
+My project experience includes the successful development of a Brain Tumor Detection system using Convolutional Neural Networks, achieving an outstanding accuracy of 99% on the test dataset. Additionally, I have contributed to the development of a Food Wastage Management System using Django and Python, showcasing my ability to apply innovative solutions to real-world problems.
+
+Achievements:
+I have a strong track record of problem-solving, with over 600 DSA questions solved on Leetcode and 150+ on GeeksforGeeks. I received a five-star rating in Python and problem-solving on HackerRank, underscoring my programming skills and logical reasoning abilities.
+
+I am impressed by Swiggy's commitment to innovation and continuous growth, and I am eager to bring my technical skills, problem-solving mindset, and enthusiasm for learning to your team. I am confident that my background and experiences align well with the expectations for the Associate Software Development Engineer role.
+
+Thank you for considering my application. I look forward to the opportunity to further discuss how my skills and experiences can contribute to the success of Swiggy.
+
+Sincerely,
+
+Rajit Kumar Chauhan
+rajit3299@gmail.com
+
+
+
+
+
+
+Job Number:  60829
+Group:  Magna Corporate
+Division:  Magna IT India - Bhosari
+Job Type:  Permanent/Regular
+Location:  Bangalore, IN
+
+
+
+
+
+
+Group Description
+
+At Magna, we create technology that disrupts the industry and solves big problems for consumers, our customers, and the world around us. We’re the only mobility technology company and supplier with complete expertise across the entire vehicle.
+
+We are committed to quality and continuous improvement because our products impact millions of people every day. But we’re more than what we make. We are a group of entrepreneurial-minded people whose collective expertise gives us a competitive advantage. World Class Manufacturing is a journey and it’s our talented people who lead us on this journey.
+
+ 
+
+Role Summary
+Magna is looking for a talented, self-motivated full stack software developer to join our rapidly growing company and contribute to future digitization initiatives. Job responsibilities will include working as independently and with a team on developing, upgrading, maintaining new and existing applications. This role requires the capability to design and develop multiple applications at an enterprise level. A commitment to collaborative problem solving and a detailed eye for quality work is essential. This role requires strong communication skills and a passion for working in a fast-paced environment.
+
+Key Responsibilities
+Collaborating with stakeholders to identify end-user requirements and specifications
+Manage code deployments, fixes, updates, and related processes
+Designing and creating new software programs and systems
+Producing efficient and elegant code based on requirements
+Testing and deploying programs and applications
+Troubleshooting, debugging, maintaining, and improving existing software
+Compiling and assessing user feedback to improve software performance
+Observing user feedback to recommend improvements to existing software products
+Developing technical documentation to guide future software development projects
+Work with source control tools (Azure DevOps, GitHub)
+Key Qualifications/Requirements
+Proficiency with multiple computer programming languages (ex: JavaScript (Typescript), Rust, Java, C#, Python)
+Experience with databases (including SQL) and different types of data storage
+Excellent knowledge of the software development life cycle (SDLC)
+Experience with developing and deploying software for on-premise and cloud architectures (Microsoft Azure and Amazon AWS)
+Knowledge of different project management methodologies such as Waterfall and Agile
+Knowledge of CI/CD pipelines
+Strong problem-solving and communication skills
+Knowledge of Object-Relational Mapping frameworks
+Experience with Agile and Scrum development methodologies
+Ability to learn quickly and work independently or as part of a team
+Excellent English language skills (written and verbal)
+Additional Information
+Regular travel less than 5% of the time.
+
+
+For dedicated and motivated employees, we offer an interesting and diversified job within a dynamic global team together with the individual and functional development in a professional environment of a global acting business. Fair treatment and a sense of responsibility towards employees are the principle of the Magna culture. We strive to offer an inspiring and motivating work environment.
+
+ 
+
+We offer attractive benefits (e.g. discretionary performance bonus) and a salary which is in line with market conditions depending on your skills and experience.
+
+Awareness. Unity. Empowerment.
+At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email to comply with GDPR requirements and your local Data Privacy Law.
+
+
+
+Fragemetns and props:
+
+{/* <FoodItems></FoodItems> */}
+      <ul className="list-group">
+        {/* {foodItems.length === 0 ? <h1>I am hungry</h1> : null} */}
+        {foodItems.length === 0 && <h1>I am hungry</h1>}
+        {foodItems.map((items) => (
+          <li key={items} className="list-group-item">
+            {items}
+          </li>
+        ))}
+        ;<li className="list-group-item">Chawal</li>
+        <li className="list-group-item">Green vagitables</li>
+        <li className="list-group-item">Salad</li>
+        <li className="list-group-item">Suf</li>
+        <li className="list-group-item">Water</li>
+      </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
